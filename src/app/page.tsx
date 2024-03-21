@@ -5,9 +5,9 @@ import HomeBlog from "./Components/HomeBlog";
 export default function Home() {
   return (
     <div>
-      <HeroSection/>
-      <HomeBlog/>
-      <FeaturedWork/>
+      <HeroSection />
+      <HomeBlog />
+      <FeaturedWork />
     </div>
   );
 }

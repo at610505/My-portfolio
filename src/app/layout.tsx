@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Anshuman Tiwari - Software Devloper",
-  description: "This is the profile of Anshuman. Software Devloper based in India",
+  description:
+    "This is the profile of Anshuman. Software Devloper based in India",
 };
 
 export default function RootLayout({
@@ -19,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
-          {children}
-        <Footer/>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
