@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="https://www.x.com/anshuma2580" target="_blank">
             <Image
               className="mx-2 cursor-pointer"
-              src="/TwitterIcon.svg"
+              src="/TwitterICon.svg"
               alt="Twitter"
               width={30}
               height={30}
